@@ -47,5 +47,4 @@ function run() {
     console.log(moo); // Mooo - Inside the function.
     console.log(baz); // ReferenceError - Outside the scope.
   }
-  
-  run();
+run();
