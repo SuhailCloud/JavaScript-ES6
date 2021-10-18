@@ -2,7 +2,10 @@
     If its a const we can not change
 */
 let newCity = "Maruthamunai";
-newCity = "Maruthamunai" // This can be changed 
+newCity = "Kalmunai" // This can be changed 
+
+var newCity1 = "Kandy";
+newCity1 = "Dambull" // This can be changed 
 
 const city = "Colombo";
 city = 'Galle'; //Error
