@@ -1,6 +1,8 @@
 /*
     If its a const we can not change
 */
+let newCity = "Maruthamunai";
+newCity = "Maruthamunai" // This can be changed 
 
 const city = "Colombo";
 city = 'Galle'; //Error
@@ -13,5 +15,7 @@ console.log(city);
 
 const city = ['Galle', 'Kandy'];
 city.push('Colombo');
+city.push('Maruthamunai');
+
 console.log(city);
 
