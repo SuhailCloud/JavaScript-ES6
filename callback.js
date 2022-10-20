@@ -1,7 +1,8 @@
 // passing functions as values and using function expressions
-function greet (sayHello, sayHi) {
+function greet (sayHello, sayHi, sayHowareyou) {
     sayHello()
     sayHi()
+    sayHowareyou()
   }
   // parameters are sayHello & sayHi are call callbacks or callbacks function
   
@@ -12,8 +13,12 @@ function greet (sayHello, sayHi) {
   const sayHi = function () {
     console.log('Hi')
   }
+
+  const sayHowareyou = function () {
+    console.log('Howareyou')
+  }
   
-  greet(sayHello, sayHi)
+  greet(sayHello, sayHi, sayHowareyou)
   
   // Regular values like strings or numbers represent the data.
   // A function can be perceived as an action.
